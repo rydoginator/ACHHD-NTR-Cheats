@@ -72,6 +72,7 @@ void	my_menus(void)
 		new_spoiler("Miscellaneous Codes");
 			new_entry("Text to item", text2item);
 			new_entry("Walk Over Objects", collisions);
+			new_entry("Special Keyboard", keyboard);
 			index = new_entry("All Emoticons", emoticons);
 		exit_spoiler();
 	for (i = 2; i <= index; i++)

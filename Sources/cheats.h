@@ -80,5 +80,6 @@ void	eyesGirl(void);
 void	collisions(void);
 void	pattern(void);
 void	emoticons(void);
+void	keyboard(void);
 
 #endif
