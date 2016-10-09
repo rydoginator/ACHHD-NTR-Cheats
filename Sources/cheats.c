@@ -562,12 +562,12 @@ void	amRover(void)
 
 void	eyesBoy(void)
 {
-	WRITEU8(0x33667F77, 0xC);
+	WRITEU8(0x32667F77, 0xC);
 }
 
 void	eyesGirl(void)
 {
-	WRITEU8(0x3667F77, 0x0);
+	WRITEU8(0x32667F77, 0x0);
 }
 
 void	collisions(void)
