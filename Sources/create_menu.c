@@ -9,8 +9,8 @@ void	my_menus(void)
 	int index;
 	int i;
 	
-		new_unselectable_entry("ACHHD NTR Cheats Ver 1.0.1");
-		new_spoiler("Amiibo Modifier");
+		new_unselectable_entry("ACHHD NTR Cheats Ver 1.1 Beta");
+		new_spoiler("Amiibo Spoofer");
 			new_radio_entry("Cyrus", amCyrus);
 			new_radio_entry("Reese", amReese);
 			new_radio_entry("Chip", amChip);

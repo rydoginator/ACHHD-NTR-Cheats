@@ -36,6 +36,7 @@ void	amCyrus(void)
 		WRITEU16(0x33682000, 0x153);
 		WRITEU16(0x3369C41C, 0x153);
 		WRITEU16(0x3369CAA0, 0x153);
+		WRITEU8(0x3369CAB9, 0x1);
 	}	
 }
 
@@ -46,7 +47,8 @@ void	amReese(void)
 		WRITEU16(0x33682000, 0x154);
 		WRITEU16(0x3369C41C, 0x154);
 		WRITEU16(0x3369CAA0, 0x154);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amChip(void)
@@ -56,7 +58,8 @@ void	amChip(void)
 		WRITEU16(0x33682000, 0x155);
 		WRITEU16(0x3369C41C, 0x155);
 		WRITEU16(0x3369CAA0, 0x155);
-	}	
+		WRITEU8(0x3369CAB9, 0x1);
+	}		
 }
 
 void	amPhineas(void)
@@ -66,7 +69,8 @@ void	amPhineas(void)
 		WRITEU16(0x33682000, 0x156);
 		WRITEU16(0x3369C41C, 0x156);
 		WRITEU16(0x3369CAA0, 0x156);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amJoan(void)
@@ -76,7 +80,8 @@ void	amJoan(void)
 		WRITEU16(0x33682000, 0x157);
 		WRITEU16(0x3369C41C, 0x157);
 		WRITEU16(0x3369CAA0, 0x157);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amKatrina(void)
@@ -86,7 +91,8 @@ void	amKatrina(void)
 		WRITEU16(0x33682000, 0x158);
 		WRITEU16(0x3369C41C, 0x158);
 		WRITEU16(0x3369CAA0, 0x158);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amNat(void)
@@ -96,7 +102,8 @@ void	amNat(void)
 		WRITEU16(0x33682000, 0x159);
 		WRITEU16(0x3369C41C, 0x159);
 		WRITEU16(0x3369CAA0, 0x159);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amSaharah(void)
@@ -106,7 +113,8 @@ void	amSaharah(void)
 		WRITEU16(0x33682000, 0x15a);
 		WRITEU16(0x3369C41C, 0x15a);
 		WRITEU16(0x3369CAA0, 0x15a);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amKK(void)
@@ -116,7 +124,8 @@ void	amKK(void)
 		WRITEU16(0x33682000, 0x15b);
 		WRITEU16(0x3369C41C, 0x15b);
 		WRITEU16(0x3369CAA0, 0x15b);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amRedd(void)
@@ -126,7 +135,8 @@ void	amRedd(void)
 		WRITEU16(0x33682000, 0x15c);
 		WRITEU16(0x3369C41C, 0x15c);
 		WRITEU16(0x3369CAA0, 0x15c);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amGracie(void)
@@ -136,7 +146,8 @@ void	amGracie(void)
 		WRITEU16(0x33682000, 0x15d);
 		WRITEU16(0x3369C41C, 0x15d);
 		WRITEU16(0x3369CAA0, 0x15d);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLabelle(void)
@@ -146,7 +157,8 @@ void	amLabelle(void)
 		WRITEU16(0x33682000, 0x15e);
 		WRITEU16(0x3369C41C, 0x15e);
 		WRITEU16(0x3369CAA0, 0x15e);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amMabel(void)
@@ -156,7 +168,8 @@ void	amMabel(void)
 		WRITEU16(0x33682000, 0x15f);
 		WRITEU16(0x3369C41C, 0x15f);
 		WRITEU16(0x3369CAA0, 0x15f);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amSable(void)
@@ -166,7 +179,8 @@ void	amSable(void)
 		WRITEU16(0x33682000, 0x160);
 		WRITEU16(0x3369C41C, 0x160);
 		WRITEU16(0x3369CAA0, 0x160);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amGrams(void)
@@ -176,7 +190,8 @@ void	amGrams(void)
 		WRITEU16(0x33682000, 0x161);
 		WRITEU16(0x3369C41C, 0x161);
 		WRITEU16(0x3369CAA0, 0x161);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLeilani(void)
@@ -186,7 +201,8 @@ void	amLeilani(void)
 		WRITEU16(0x33682000, 0x162);
 		WRITEU16(0x3369C41C, 0x162);
 		WRITEU16(0x3369CAA0, 0x162);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amKappn(void)
@@ -196,7 +212,8 @@ void	amKappn(void)
 		WRITEU16(0x33682000, 0x163);
 		WRITEU16(0x3369C41C, 0x163);
 		WRITEU16(0x3369CAA0, 0x163);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLeila(void)
@@ -206,7 +223,8 @@ void	amLeila(void)
 		WRITEU16(0x33682000, 0x164);
 		WRITEU16(0x3369C41C, 0x164);
 		WRITEU16(0x3369CAA0, 0x164);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amKatie(void)
@@ -216,7 +234,8 @@ void	amKatie(void)
 		WRITEU16(0x33682000, 0x165);
 		WRITEU16(0x3369C41C, 0x165);
 		WRITEU16(0x3369CAA0, 0x165);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amTommy(void)
@@ -226,7 +245,8 @@ void	amTommy(void)
 		WRITEU16(0x33682000, 0x166);
 		WRITEU16(0x3369C41C, 0x166);
 		WRITEU16(0x3369CAA0, 0x166);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amTimmy(void)
@@ -236,7 +256,8 @@ void	amTimmy(void)
 		WRITEU16(0x33682000, 0x167);
 		WRITEU16(0x3369C41C, 0x167);
 		WRITEU16(0x3369CAA0, 0x167);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amBlanca(void)
@@ -246,7 +267,8 @@ void	amBlanca(void)
 		WRITEU16(0x33682000, 0x168);
 		WRITEU16(0x3369C41C, 0x168);
 		WRITEU16(0x3369CAA0, 0x168);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amPorter(void)
@@ -256,7 +278,8 @@ void	amPorter(void)
 		WRITEU16(0x33682000, 0x169);
 		WRITEU16(0x3369C41C, 0x169);
 		WRITEU16(0x3369CAA0, 0x169);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amDon(void)
@@ -266,7 +289,8 @@ void	amDon(void)
 		WRITEU16(0x33682000, 0x16A);
 		WRITEU16(0x3369C41C, 0x16A);
 		WRITEU16(0x3369CAA0, 0x16A);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amResetti(void)
@@ -276,7 +300,8 @@ void	amResetti(void)
 		WRITEU16(0x33682000, 0x16B);
 		WRITEU16(0x3369C41C, 0x16B);
 		WRITEU16(0x3369CAA0, 0x16B);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLottie(void)
@@ -286,7 +311,8 @@ void	amLottie(void)
 		WRITEU16(0x33682000, 0x16C);
 		WRITEU16(0x3369C41C, 0x16C);
 		WRITEU16(0x3369CAA0, 0x16C);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLyle(void)
@@ -296,7 +322,8 @@ void	amLyle(void)
 		WRITEU16(0x33682000, 0x16D);
 		WRITEU16(0x3369C41C, 0x16D);
 		WRITEU16(0x3369CAA0, 0x16D);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amBlathers(void)
@@ -317,7 +344,8 @@ void	amCeleste(void)
 		WRITEU16(0x33682000, 0x16F);
 		WRITEU16(0x3369C41C, 0x16F);
 		WRITEU16(0x3369CAA0, 0x16F);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amConga(void)
@@ -327,7 +355,8 @@ void	amConga(void)
 		WRITEU16(0x33682000, 0x170);
 		WRITEU16(0x3369C41C, 0x170);
 		WRITEU16(0x3369CAA0, 0x170);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amPelly(void)
@@ -337,7 +366,8 @@ void	amPelly(void)
 		WRITEU16(0x33682000, 0x171);
 		WRITEU16(0x3369C41C, 0x171);
 		WRITEU16(0x3369CAA0, 0x171);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amPhyllis	(void)
@@ -347,7 +377,8 @@ void	amPhyllis	(void)
 		WRITEU16(0x33682000, 0x172);
 		WRITEU16(0x3369C41C, 0x172);
 		WRITEU16(0x3369CAA0, 0x172);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amBrewster(void)
@@ -357,7 +388,8 @@ void	amBrewster(void)
 		WRITEU16(0x33682000, 0x173);
 		WRITEU16(0x3369C41C, 0x173);
 		WRITEU16(0x3369CAA0, 0x173);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amJack(void)
@@ -367,7 +399,8 @@ void	amJack(void)
 		WRITEU16(0x33682000, 0x174);
 		WRITEU16(0x3369C41C, 0x174);
 		WRITEU16(0x3369CAA0, 0x174);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amBooker(void)
@@ -377,7 +410,8 @@ void	amBooker(void)
 		WRITEU16(0x33682000, 0x175);
 		WRITEU16(0x3369C41C, 0x175);
 		WRITEU16(0x3369CAA0, 0x175);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amPete(void)
@@ -387,7 +421,8 @@ void	amPete(void)
 		WRITEU16(0x33682000, 0x176);
 		WRITEU16(0x3369C41C, 0x176);
 		WRITEU16(0x3369CAA0, 0x176);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amCopper(void)
@@ -397,7 +432,8 @@ void	amCopper(void)
 		WRITEU16(0x33682000, 0x177);
 		WRITEU16(0x3369C41C, 0x177);
 		WRITEU16(0x3369CAA0, 0x177);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amHarriet(void)
@@ -407,7 +443,8 @@ void	amHarriet(void)
 		WRITEU16(0x33682000, 0x178);
 		WRITEU16(0x3369C41C, 0x178);
 		WRITEU16(0x3369CAA0, 0x178);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amZipper(void)
@@ -417,7 +454,8 @@ void	amZipper(void)
 		WRITEU16(0x33682000, 0x179);
 		WRITEU16(0x3369C41C, 0x179);
 		WRITEU16(0x3369CAA0, 0x179);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amNook(void)
@@ -427,7 +465,8 @@ void	amNook(void)
 		WRITEU16(0x33682000, 0x17A);
 		WRITEU16(0x3369C41C, 0x17A);
 		WRITEU16(0x3369CAA0, 0x17A);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amGulliver(void)
@@ -437,7 +476,8 @@ void	amGulliver(void)
 		WRITEU16(0x33682000, 0x17B);
 		WRITEU16(0x3369C41C, 0x17B);
 		WRITEU16(0x3369CAA0, 0x17B);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amPascal(void)
@@ -447,7 +487,8 @@ void	amPascal(void)
 		WRITEU16(0x33682000, 0x17C);
 		WRITEU16(0x3369C41C, 0x17C);
 		WRITEU16(0x3369CAA0, 0x17C);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amKicks(void)
@@ -457,7 +498,8 @@ void	amKicks(void)
 		WRITEU16(0x33682000, 0x17D);
 		WRITEU16(0x3369C41C, 0x17D);
 		WRITEU16(0x3369CAA0, 0x17D);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLeif(void)
@@ -467,7 +509,8 @@ void	amLeif(void)
 		WRITEU16(0x33682000, 0x17E);
 		WRITEU16(0x3369C41C, 0x17E);
 		WRITEU16(0x3369CAA0, 0x17E);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amJingle(void)
@@ -477,7 +520,8 @@ void	amJingle(void)
 		WRITEU16(0x33682000, 0x17F);
 		WRITEU16(0x3369C41C, 0x17F);
 		WRITEU16(0x3369CAA0, 0x17F);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amIsabelle(void)
@@ -487,7 +531,8 @@ void	amIsabelle(void)
 		WRITEU16(0x33682000, 0x180);
 		WRITEU16(0x3369C41C, 0x180);
 		WRITEU16(0x3369CAA0, 0x180);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amDigby(void)
@@ -497,7 +542,8 @@ void	amDigby(void)
 		WRITEU16(0x33682000, 0x181);
 		WRITEU16(0x3369C41C, 0x181);
 		WRITEU16(0x3369CAA0, 0x181);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amLuna(void)
@@ -507,7 +553,8 @@ void	amLuna(void)
 		WRITEU16(0x33682000, 0x182);
 		WRITEU16(0x3369C41C, 0x182);
 		WRITEU16(0x3369CAA0, 0x182);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amTortimer(void)
@@ -517,7 +564,8 @@ void	amTortimer(void)
 		WRITEU16(0x33682000, 0x183);
 		WRITEU16(0x3369C41C, 0x183);
 		WRITEU16(0x3369CAA0, 0x183);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amFranklin(void)
@@ -527,7 +575,8 @@ void	amFranklin(void)
 		WRITEU16(0x33682000, 0x184);
 		WRITEU16(0x3369C41C, 0x184);
 		WRITEU16(0x3369CAA0, 0x184);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amShrunk(void)
@@ -537,7 +586,8 @@ void	amShrunk(void)
 		WRITEU16(0x33682000, 0x185);
 		WRITEU16(0x3369C41C, 0x185);
 		WRITEU16(0x3369CAA0, 0x185);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amWendell(void)
@@ -547,7 +597,8 @@ void	amWendell(void)
 		WRITEU16(0x33682000, 0x186);
 		WRITEU16(0x3369C41C, 0x186);
 		WRITEU16(0x3369CAA0, 0x186);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	amRover(void)
@@ -557,7 +608,8 @@ void	amRover(void)
 		WRITEU16(0x33682000, 0x187);
 		WRITEU16(0x3369C41C, 0x187);
 		WRITEU16(0x3369CAA0, 0x187);
-	}
+		WRITEU8(0x3369CAB9, 0x1);
+	}	
 }
 
 void	eyesBoy(void)
