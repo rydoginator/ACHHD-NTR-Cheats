@@ -81,5 +81,6 @@ void	collisions(void);
 void	pattern(void);
 void	emoticons(void);
 void	keyboard(void);
+void	objectAnywhere(void);
 
 #endif

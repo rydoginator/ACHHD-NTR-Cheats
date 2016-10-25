@@ -684,3 +684,39 @@ void	keyboard(void)
 		}
 	}
 }
+
+void objectAnywhere(void)
+{
+	u32 offset;
+	offset = 0;
+	int i;
+	if(is_pressed(BUTTON_L))
+	{
+		offset = 0x315975B4;
+		for(i = 0; i < 0x0000100B; i++)
+		{
+			if (READU16(offset) == 0x4016)
+			{
+				WRITEU16(offset, 0x4015);
+			}
+			if (READU16(offset) == 0x4017)
+			{
+				WRITEU16(offset, 0x4015);
+			}
+			if(READU16(offset) == 0x402F)
+			{
+				WRITEU16(offset, 0x4015);
+			}
+			if(READU16(offset) == 0x4025)
+			{
+				WRITEU16(offset, 0x4015);
+			}
+			if(READU16(offset) == 0x402B)
+			{
+				WRITEU16(offset, 0x4015);
+			}
+			offset += 0x4;
+		}
+	}
+	offset = 0;
+}

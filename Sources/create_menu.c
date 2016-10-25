@@ -9,7 +9,7 @@ void	my_menus(void)
 	int index;
 	int i;
 	
-		new_unselectable_entry("ACHHD NTR Cheats Ver 1.1 Beta");
+		new_unselectable_entry("ACHHD NTR Cheats Ver 1.1");
 		new_spoiler("Amiibo Spoofer");
 			new_radio_entry("Cyrus", amCyrus);
 			new_radio_entry("Reese", amReese);
@@ -73,7 +73,8 @@ void	my_menus(void)
 			new_entry("Text to item", text2item);
 			new_entry("Walk Over Objects", collisions);
 			new_entry("Special Keyboard", keyboard);
-			index = new_entry("All Emoticons", emoticons);
+			new_entry("All Emoticons", emoticons);
+			index = new_entry("Place Object Everywhere", objectAnywhere);
 		exit_spoiler();
 	for (i = 2; i <= index; i++)
 		set_note(notes[i - 2], i);
