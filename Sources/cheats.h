@@ -78,7 +78,7 @@ void	amRover(void);
 void	eyesBoy(void);
 void	eyesGirl(void);
 void	collisions(void);
-void	pattern(void);
+void	text2shirt(void);
 void	emoticons(void);
 void	keyboard(void);
 void	objectAnywhere(void);

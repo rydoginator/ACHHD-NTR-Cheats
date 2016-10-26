@@ -67,7 +67,7 @@ void	my_menus(void)
 		new_spoiler("Appearance Codes");
 			new_radio_entry("?? Eyes Boy", eyesBoy);
 			new_radio_entry("?? Eyes Girl", eyesGirl);
-			new_radio_entry("1st Pattern as a Uniform", pattern);
+			new_radio_entry("Text to shirt", text2shirt);
 		exit_spoiler();
 		new_spoiler("Miscellaneous Codes");
 			new_entry("Text to item", text2item);

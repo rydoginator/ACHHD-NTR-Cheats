@@ -643,9 +643,25 @@ void	collisions(void)
 	}
 }
 
-void	pattern(void)
+void	text2shirt(void)
 {
-	WRITEU16(0x32667F82, 0x327E);
+	u16 result;
+	u16 store = READU16(0x31000000);
+	if (is_pressed(BUTTON_L))
+	{
+		u16 *id = (u16*)0x33041F60;
+		char id_str[5] = {0};
+		for (size_t i = 0; i < 4u; ++i)
+		{
+			id_str[i] = (char)READU8(id + i);
+		}
+		result = (u16)strtoul(id_str, NULL, 16);
+		WRITEU16(0x31000000, result);
+	}
+	if (is_pressed(BUTTON_R))
+	{
+		WRITEU16(0x32667F82, store);
+	}
 }
 
 void	emoticons(void)

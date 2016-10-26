@@ -60,7 +60,7 @@ static const char * const notes[] =
 	"Appearance Codes",
 	"You need to go change \n\nyour eyes with the machine, accept changes and go again in the machine nand you will see your character with two ?'s for eyes.",
 	"You need to go change \n\nyour eyes with the machine, accept changes and go again in the machine nand you will see your character with two ?'s for eyes.",
-	"You need to duplicate the pattern you want to wear to slot 1.",
+	"Type in the ID of the shirt that you want (Found on GBATemp) and press L to store it, and press R to change into the shirt.",
 	"Misc Codes",
 	"Go into the search bar, type in the item ID (found on GBATemp) press L to store it, press D Pad Up for a 'on table item' press D Pad Right for a 'regular item' and press D Pad Down for a 'carpet' item. Go inside and outside the room to see the change.",
 	"Press R + D Pad Up to enable, press R + D Pad Down to disable.",
