@@ -10,7 +10,7 @@ void	text2item(void)
 		char id_str[5] = {0};
 		for (size_t i = 0; i < 4u; ++i)
 		{
-			id_str[i] = (char)READU16(id + i);
+			id_str[i] = (char)READU8(id + i);
 		}
 		result = (u16)strtoul(id_str, NULL, 16);
 		WRITEU16(0x31000000, result);
